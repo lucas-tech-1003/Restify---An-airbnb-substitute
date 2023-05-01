@@ -1,0 +1,16 @@
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.carousel-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.my-carousel-controls button[disabled] {
+    display: none;
+  }

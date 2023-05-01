@@ -1,0 +1,37 @@
+.notifications-container {
+    margin-top: 2rem;
+  }
+  
+  .notifications-divider {
+    height: 3px;
+    border: none;
+    border-top: 3px double red;
+  }
+  
+  .notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .notification:hover {
+    background-color: #e9ecef;
+  }
+  
+  .message {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .timestamp {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #6c757d;
+  }
+  
