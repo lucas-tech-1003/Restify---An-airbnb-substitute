@@ -1,1 +1,1 @@
-# csc309-project
+# Restify - An airbnb project
