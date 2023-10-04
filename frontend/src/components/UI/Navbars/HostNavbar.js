@@ -1,4 +1,3 @@
-import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 import emptyAvatar from '../../../assets/empty_avatar.png';
