@@ -11,7 +11,6 @@ run `run.sh` to run the backend with Django and the frontend with React.
 Run `save_data.sh`, to save the files after each use.
 
 The React app can be accessed via `localhost:3000`
-```
 
 ## 2. Completed User Stories:
 
@@ -61,4 +60,33 @@ On Restify, reservations to a rental property may be in one of the following sta
 - As a host, I want to see notifications. I want to be notified when someone rates my property, posts a comment about my property, requests approval for making a reservation or cancellation.
 - As a user, I want to see notifications. I want to be notified when my reservation is approved or canceled, or when the date of my approved reservations are about to come up.
 
-## 3. Sample Pages:
+## 3. Showcase:
+#### Login/Signup Page
+![Alt text](<screenshots/Screenshot 2023-12-17 141744.png>)
+![Alt text](<screenshots/Screenshot 2023-12-17 142019.png>)
+
+#### Main Page
+![Alt text](<screenshots/Screenshot 2023-12-17 142210.png>)
+
+#### Property Page (Make Reservations)
+![Alt text](<screenshots/Screenshot 2023-12-17 142239.png>)
+![Alt text](<screenshots/Screenshot 2023-12-17 142321.png>)
+
+#### Host
+![Alt text](<screenshots/Screenshot 2023-12-17 142446.png>)
+![Alt text](screenshots/image.png)
+![Alt text](screenshots/image-1.png)
+
+#### Review
+![Alt text](<screenshots/Screenshot 2023-12-17 144116.png>)
+
+#### Profile
+![Alt text](screenshots/image-2.png)
+![Alt text](<screenshots/Screenshot 2023-12-17 142507.png>)
+
+#### Notification System
+![Alt text](<screenshots/Screenshot 2023-12-17 142458.png>)
+
+## 4. Responsive Design
+![Alt text](screenshots/image-3.png)
+![Alt text](screenshots/image-4.png)

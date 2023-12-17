@@ -174,6 +174,56 @@
   }
 },
 {
+  "model": "accounts.user",
+  "fields": {
+    "last_login": null,
+    "is_active": true,
+    "date_joined": "2023-12-17T19:18:31.725Z",
+    "username": "lucas",
+    "password": "pbkdf2_sha256$390000$AuiVA0bahZUjOD3RtD5cTb$gWAEPw/I6EcMlIrzoHX3uYP2WZB+O+s5rJpvksPhvQ8=",
+    "first_name": "lucas",
+    "last_name": "lucas",
+    "email": "lucas@123.com",
+    "phone": "4038366570",
+    "address": "",
+    "government_id": "",
+    "emergency_contact": "",
+    "joined_in": "2023-12-17",
+    "bio": "",
+    "avatar": "avatars/v2-8795cdad4588f7ca5b6004fd70710134_720w_1VmTXEk.gif",
+    "is_host": false,
+    "is_staff": false,
+    "is_superuser": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "last_login": null,
+    "is_active": true,
+    "date_joined": "2023-12-17T19:18:49.128Z",
+    "username": "lucasadmin",
+    "password": "pbkdf2_sha256$390000$zFsDBTg0FDSsCaafwNGWiK$CNQpnz06GTdB/8hBOzKcnCTWSlWByr0g2HIevMOWHbI=",
+    "first_name": "Lucas",
+    "last_name": "Lei",
+    "email": "688lucasl@gmail.com",
+    "phone": "4038366570",
+    "address": "",
+    "government_id": "",
+    "emergency_contact": "",
+    "joined_in": "2023-12-17",
+    "bio": "",
+    "avatar": "",
+    "is_host": false,
+    "is_staff": false,
+    "is_superuser": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
   "model": "property.property",
   "pk": 1,
   "fields": {
@@ -196,7 +246,7 @@
     "start_available_date": "2023-04-16",
     "end_available_date": null,
     "created_at": "2023-04-16T17:37:13.269Z",
-    "modified_at": "2023-10-04T19:28:14.827Z"
+    "modified_at": "2023-12-17T19:44:38.068Z"
   }
 },
 {
@@ -222,7 +272,7 @@
     "start_available_date": "2023-03-12",
     "end_available_date": null,
     "created_at": "2023-04-16T17:45:23.155Z",
-    "modified_at": "2023-10-04T19:28:14.589Z"
+    "modified_at": "2023-12-17T19:44:37.787Z"
   }
 },
 {
@@ -248,7 +298,7 @@
     "start_available_date": "2023-03-12",
     "end_available_date": null,
     "created_at": "2023-04-16T19:08:29.120Z",
-    "modified_at": "2023-10-04T19:27:56.815Z"
+    "modified_at": "2023-12-17T19:38:13.202Z"
   }
 },
 {
@@ -274,7 +324,7 @@
     "start_available_date": "2023-02-21",
     "end_available_date": null,
     "created_at": "2023-04-18T06:08:06.681Z",
-    "modified_at": "2023-10-04T19:27:55.054Z"
+    "modified_at": "2023-12-17T19:38:11.678Z"
   }
 },
 {
@@ -300,7 +350,7 @@
     "start_available_date": "2023-04-20",
     "end_available_date": null,
     "created_at": "2023-04-21T03:06:56.142Z",
-    "modified_at": "2023-10-04T19:36:26.076Z"
+    "modified_at": "2023-12-17T19:38:10.316Z"
   }
 },
 {
@@ -326,7 +376,7 @@
     "start_available_date": "2023-04-21",
     "end_available_date": null,
     "created_at": "2023-04-21T05:10:28.517Z",
-    "modified_at": "2023-10-04T19:36:25.726Z"
+    "modified_at": "2023-12-17T19:38:10.049Z"
   }
 },
 {
@@ -352,7 +402,7 @@
     "start_available_date": "2023-04-21",
     "end_available_date": null,
     "created_at": "2023-04-21T05:22:37.024Z",
-    "modified_at": "2023-10-04T19:27:58.766Z"
+    "modified_at": "2023-12-17T19:38:12.995Z"
   }
 },
 {
@@ -378,7 +428,7 @@
     "start_available_date": "2023-04-14",
     "end_available_date": null,
     "created_at": "2023-04-21T15:16:21.465Z",
-    "modified_at": "2023-10-04T19:27:55.197Z"
+    "modified_at": "2023-12-17T19:38:11.938Z"
   }
 },
 {
@@ -1119,7 +1169,7 @@
     "receiver": [
       "lu"
     ],
-    "is_read": false,
+    "is_read": true,
     "created_at": "2023-04-21T15:35:57.274Z"
   }
 },
@@ -1131,7 +1181,7 @@
     "receiver": [
       "lu"
     ],
-    "is_read": false,
+    "is_read": true,
     "created_at": "2023-04-21T15:36:28.387Z"
   }
 },
@@ -1241,6 +1291,18 @@
     ],
     "is_read": false,
     "created_at": "2023-10-04T19:04:07.587Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 43,
+  "fields": {
+    "message": "Host helena has replied to the review for *Two storey mansion in Montreal*.",
+    "receiver": [
+      "bob"
+    ],
+    "is_read": false,
+    "created_at": "2023-12-17T19:37:34.355Z"
   }
 },
 {
@@ -1525,6 +1587,18 @@
     ],
     "reply": "asd",
     "created_at": "2023-10-04T19:04:07.266Z"
+  }
+},
+{
+  "model": "reviews.response",
+  "pk": 17,
+  "fields": {
+    "review": 5,
+    "user": [
+      "helena"
+    ],
+    "reply": "dasd",
+    "created_at": "2023-12-17T19:37:34.094Z"
   }
 },
 {
@@ -2578,6 +2652,97 @@
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5Njg3ODE3NSwiaWF0IjoxNjk2NDQ2MTc1LCJqdGkiOiI1NDAwMzU1ZjNkMjk0N2ViODgyNTRmMDVhNzM5NzI4ZiIsInVzZXJfaWQiOjF9.kgV1-QlrSBH9A_xpuTYn80qvD1pJ15mpz10bczP6vfI",
     "created_at": "2023-10-04T19:02:55.475Z",
     "expires_at": "2023-10-09T19:02:55Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 82,
+  "fields": {
+    "user": [
+      "lucas"
+    ],
+    "jti": "fbd50fa06017439fa29c5c3aae35f087",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwMzI3Mjc5OCwiaWF0IjoxNzAyODQwNzk4LCJqdGkiOiJmYmQ1MGZhMDYwMTc0MzlmYTI5YzVjM2FhZTM1ZjA4NyIsInVzZXJfaWQiOjd9.Ca7BxrRDcHjrbgb_8KRXQJp0M6pB6eC2I3dADi6hRa0",
+    "created_at": "2023-12-17T19:19:58.494Z",
+    "expires_at": "2023-12-22T19:19:58Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 83,
+  "fields": {
+    "user": [
+      "lucas"
+    ],
+    "jti": "b67a65b6d37846088ad0cfd332915b4c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwMzI3Mjg1MiwiaWF0IjoxNzAyODQwODUyLCJqdGkiOiJiNjdhNjViNmQzNzg0NjA4OGFkMGNmZDMzMjkxNWI0YyIsInVzZXJfaWQiOjd9.2_KyTjPE3lpNfZhk9tKbMCNEVF3jh6P3jTDnYOJmiCI",
+    "created_at": "2023-12-17T19:20:52.110Z",
+    "expires_at": "2023-12-22T19:20:52Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 84,
+  "fields": {
+    "user": [
+      "lucasadmin"
+    ],
+    "jti": "ea6a9612d9b045f489eaaff0e6efddac",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwMzI3MzAzMSwiaWF0IjoxNzAyODQxMDMxLCJqdGkiOiJlYTZhOTYxMmQ5YjA0NWY0ODllYWFmZjBlNmVmZGRhYyIsInVzZXJfaWQiOjh9.kD4K5n42JggpX59iKuFfhg_SZCQXR-_WxQ8hSnOPUVQ",
+    "created_at": "2023-12-17T19:23:51.555Z",
+    "expires_at": "2023-12-22T19:23:51Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 85,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "ccae391b069c4f94a23f015e6214cf78",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwMzI3MzA0MywiaWF0IjoxNzAyODQxMDQzLCJqdGkiOiJjY2FlMzkxYjA2OWM0Zjk0YTIzZjAxNWU2MjE0Y2Y3OCIsInVzZXJfaWQiOjF9.JfyQaQnYjGK0KKjBNmkt_xwN7SfeLbPXxebQ5-Fu-Yo",
+    "created_at": "2023-12-17T19:24:03.329Z",
+    "expires_at": "2023-12-22T19:24:03Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 86,
+  "fields": {
+    "user": [
+      "helena"
+    ],
+    "jti": "69bc8a6d451042f9ace517b0df1eef84",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwMzI3MzA2NCwiaWF0IjoxNzAyODQxMDY0LCJqdGkiOiI2OWJjOGE2ZDQ1MTA0MmY5YWNlNTE3YjBkZjFlZWY4NCIsInVzZXJfaWQiOjR9.9LetXtt86fLMAGuaucag6kDlx4ZLo0G0DiVbp1e8cJ0",
+    "created_at": "2023-12-17T19:24:24.107Z",
+    "expires_at": "2023-12-22T19:24:24Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 87,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "8240af829a344b8f887a464c95378199",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwMzI3Mzg3OCwiaWF0IjoxNzAyODQxODc4LCJqdGkiOiI4MjQwYWY4MjlhMzQ0YjhmODg3YTQ2NGM5NTM3ODE5OSIsInVzZXJfaWQiOjF9.GcDqvcHPeHhLhBCGu0RaK2qrtHV7j6ntErrL-whI59w",
+    "created_at": "2023-12-17T19:37:58.690Z",
+    "expires_at": "2023-12-22T19:37:58Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 88,
+  "fields": {
+    "user": [
+      "lu"
+    ],
+    "jti": "f90c489440364be1b3c435023ffe72ed",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwMzI3MzkyNCwiaWF0IjoxNzAyODQxOTI0LCJqdGkiOiJmOTBjNDg5NDQwMzY0YmUxYjNjNDM1MDIzZmZlNzJlZCIsInVzZXJfaWQiOjN9.NyrMKucSSZ4Vna77ZZB2Ukyo0LD431Gk1geHISYaLmM",
+    "created_at": "2023-12-17T19:38:44.206Z",
+    "expires_at": "2023-12-22T19:38:44Z"
   }
 },
 {
